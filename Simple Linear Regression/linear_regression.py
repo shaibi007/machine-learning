@@ -15,7 +15,7 @@ import pandas as pd                 #import and manage datasets
 print ("Success importing the libraries")
 
 #Import the datasets
-dataset = pd.read_csv("/Users/shoaibrafique/Downloads/machine-learning/Linear regression/airmiles.csv").drop(['Unnamed: 0'],axis=1)
+dataset = pd.read_csv("/Users/shoaibrafique/Downloads/machine learning/Simple Linear regression/airmiles.csv").drop(['Unnamed: 0'],axis=1)
 print ("Success importing the dataset")
 
 #Create matrix of features - columns of independant variables
